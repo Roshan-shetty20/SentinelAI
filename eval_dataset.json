@@ -1,0 +1,289 @@
+[
+    {
+        "id": "en_b_1",
+        "text": "Hey, are we still on for lunch tomorrow at 12?",
+        "label": "safe",
+        "lang": "en",
+        "type": "plain"
+    },
+    {
+        "id": "en_b_2",
+        "text": "Your Amazon order #12345 has been shipped.",
+        "label": "safe",
+        "lang": "en",
+        "type": "plain"
+    },
+    {
+        "id": "en_b_3",
+        "text": "Meeting agenda for Q3 planning is attached.",
+        "label": "safe",
+        "lang": "en",
+        "type": "plain"
+    },
+    {
+        "id": "en_b_4",
+        "text": "Please review the document here: https://docs.google.com/document/d/12345",
+        "label": "safe",
+        "lang": "en",
+        "type": "url"
+    },
+    {
+        "id": "en_m_1",
+        "text": "URGENT: Your PayPal account has been restricted. Verify your identity immediately at http://paypal-security-update.com",
+        "label": "malicious",
+        "lang": "en",
+        "type": "url"
+    },
+    {
+        "id": "en_m_2",
+        "text": "Congratulations! You have been selected for a  Walmart gift card. Click here: https://bit.ly/3xyz",
+        "label": "malicious",
+        "lang": "en",
+        "type": "url"
+    },
+    {
+        "id": "en_m_3",
+        "text": "Kindly transfer the payment of  to the new account urgently.",
+        "label": "malicious",
+        "lang": "en",
+        "type": "plain"
+    },
+    {
+        "id": "hi_b_1",
+        "text": "कल सुबह 10 बजे मीटिंग है।",
+        "label": "safe",
+        "lang": "hi",
+        "type": "plain"
+    },
+    {
+        "id": "hi_b_2",
+        "text": "क्या आप मुझे वह फाइल भेज सकते हैं?",
+        "label": "safe",
+        "lang": "hi",
+        "type": "plain"
+    },
+    {
+        "id": "hi_m_1",
+        "text": "तत्काल! आपका बैंक खाता निलंबित कर दिया गया है। अपना केवाईसी अपडेट करने के लिए यहाँ क्लिक करें: http://update-kyc.in",
+        "label": "malicious",
+        "lang": "hi",
+        "type": "url"
+    },
+    {
+        "id": "hi_m_2",
+        "text": "बधाई हो! आपने 10,00,000 रुपये की लॉटरी जीती है। अपनी राशि का दावा करने के लिए तुरंत संपर्क करें।",
+        "label": "malicious",
+        "lang": "hi",
+        "type": "plain"
+    },
+    {
+        "id": "kn_b_1",
+        "text": "ನಾಳೆ ಬೆಳಗ್ಗೆ 10 ಗಂಟೆಗೆ ಸಭೆ ಇದೆ.",
+        "label": "safe",
+        "lang": "kn",
+        "type": "plain"
+    },
+    {
+        "id": "kn_m_1",
+        "text": "ತುರ್ತು! ನಿಮ್ಮ ಖಾತೆಯನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ: http://sbi-update.com",
+        "label": "malicious",
+        "lang": "kn",
+        "type": "url"
+    },
+    {
+        "id": "ta_b_1",
+        "text": "நாளை காலை 10 மணிக்கு சந்திப்பு உள்ளது.",
+        "label": "safe",
+        "lang": "ta",
+        "type": "plain"
+    },
+    {
+        "id": "ta_m_1",
+        "text": "அவசரம்! உங்கள் வங்கி கணக்கு முடக்கப்பட்டுள்ளது. இங்கே கிளிக் செய்யவும்: http://hdfc-verify.com",
+        "label": "malicious",
+        "lang": "ta",
+        "type": "url"
+    },
+    {
+        "id": "te_b_1",
+        "text": "రేపు ఉదయం 10 గంటలకు మీటింగ్ ఉంది.",
+        "label": "safe",
+        "lang": "te",
+        "type": "plain"
+    },
+    {
+        "id": "te_m_1",
+        "text": "అత్యవసరం! మీ ఖాతా నిలిపివేయబడింది. దయచేసి అప్‌డేట్ చేయండి: http://icici-update.in",
+        "label": "malicious",
+        "lang": "te",
+        "type": "url"
+    },
+    {
+        "id": "ml_b_1",
+        "text": "നാളെ രാവിലെ 10 മണിക്ക് യോഗം ഉണ്ട്.",
+        "label": "safe",
+        "lang": "ml",
+        "type": "plain"
+    },
+    {
+        "id": "ml_m_1",
+        "text": "അടിയന്തരം! നിങ്ങളുടെ ബാങ്ക് അക്കൗണ്ട് മരവിപ്പിച്ചു. ഇവിടെ ക്ലിക്ക് ചെയ്യുക: http://bank-update.in",
+        "label": "malicious",
+        "lang": "ml",
+        "type": "url"
+    },
+    {
+        "id": "mr_b_1",
+        "text": "उद्या सकाळी १० वाजता मीटिंग आहे.",
+        "label": "safe",
+        "lang": "mr",
+        "type": "plain"
+    },
+    {
+        "id": "mr_m_1",
+        "text": "तातडीने! तुमचे बँक खाते निलंबित केले आहे. येथे क्लिक करा: http://sbi-alert.in",
+        "label": "malicious",
+        "lang": "mr",
+        "type": "url"
+    },
+    {
+        "id": "bn_b_1",
+        "text": "আগামীকাল সকাল ১০টায় মিটিং আছে।",
+        "label": "safe",
+        "lang": "bn",
+        "type": "plain"
+    },
+    {
+        "id": "bn_m_1",
+        "text": "জরুরী! আপনার ব্যাঙ্ক অ্যাকাউন্ট স্থগিত করা হয়েছে। আপডেট করতে ক্লিক করুন: http://pnb-update.com",
+        "label": "malicious",
+        "lang": "bn",
+        "type": "url"
+    },
+    {
+        "id": "ar_b_1",
+        "text": "لدينا اجتماع غدا في الساعة 10 صباحا.",
+        "label": "safe",
+        "lang": "ar",
+        "type": "plain"
+    },
+    {
+        "id": "ar_m_1",
+        "text": "عاجل: تم تجميد حسابك المصرفي. يرجى التحديث فوراً: http://bank-secure.com",
+        "label": "malicious",
+        "lang": "ar",
+        "type": "url"
+    },
+    {
+        "id": "es_b_1",
+        "text": "Tenemos una reunión mañana a las 10 am.",
+        "label": "safe",
+        "lang": "es",
+        "type": "plain"
+    },
+    {
+        "id": "es_m_1",
+        "text": "Urgente: Su cuenta ha sido suspendida. Verifique su identidad aquí: http://seguridad-banco.com",
+        "label": "malicious",
+        "lang": "es",
+        "type": "url"
+    },
+    {
+        "id": "mix_b_1",
+        "text": "Kal meeting attend karna mat bhulna at 10 AM.",
+        "label": "safe",
+        "lang": "mixed",
+        "type": "plain"
+    },
+    {
+        "id": "mix_b_2",
+        "text": "Sir, document send kar diya hai, please check.",
+        "label": "safe",
+        "lang": "mixed",
+        "type": "plain"
+    },
+    {
+        "id": "mix_m_1",
+        "text": "Urgent! Tumhara bank account suspend ho gaya hai. KYC verify karne ke liye yahan click karein: http://kyc-update-sbi.in",
+        "label": "malicious",
+        "lang": "mixed",
+        "type": "url"
+    },
+    {
+        "id": "mix_m_2",
+        "text": "Nimma account block agide, contact support immediately verify link: http://verify.com",
+        "label": "malicious",
+        "lang": "mixed",
+        "type": "url"
+    },
+    {
+        "id": "mix_m_3",
+        "text": "Ungal account suspend aagivittadu. Please login and verify account: http://login-secure.in",
+        "label": "malicious",
+        "lang": "mixed",
+        "type": "url"
+    },
+    {
+        "id": "md_b_1",
+        "text": "Here is the invoice for your reference: [View Invoice](https://example.com/invoice?id=837492)",
+        "label": "safe",
+        "lang": "en",
+        "type": "markdown"
+    },
+    {
+        "id": "md_b_2",
+        "text": "[Go to Dashboard](https://app.dashboard.com/home)",
+        "label": "safe",
+        "lang": "en",
+        "type": "markdown"
+    },
+    {
+        "id": "md_b_3",
+        "text": "Check out this repo: [GitHub Repo](https://github.com/user/project_name)",
+        "label": "safe",
+        "lang": "en",
+        "type": "markdown"
+    },
+    {
+        "id": "md_m_1",
+        "text": "Urgent: Action required on your account. [Verify Now](http://scam-verify-account.com/login?token=abc12345)",
+        "label": "malicious",
+        "lang": "en",
+        "type": "markdown"
+    },
+    {
+        "id": "md_m_2",
+        "text": "[Click here to claim your  prize!](http://192.168.1.100/claim.php)",
+        "label": "malicious",
+        "lang": "en",
+        "type": "markdown"
+    },
+    {
+        "id": "md_m_3",
+        "text": "Your password has expired. [Reset Password](http://bit.ly/malicious-link)",
+        "label": "malicious",
+        "lang": "en",
+        "type": "markdown"
+    },
+    {
+        "id": "url_m_1",
+        "text": "Verify account: http://192.168.1.1/login.html",
+        "label": "malicious",
+        "lang": "en",
+        "type": "url"
+    },
+    {
+        "id": "url_m_2",
+        "text": "Please login to your account via http://login.microsoftonline.com.verify.com/token",
+        "label": "malicious",
+        "lang": "en",
+        "type": "url"
+    },
+    {
+        "id": "url_m_3",
+        "text": "Update payment info: http://paypal.com-secure-update.in",
+        "label": "malicious",
+        "lang": "en",
+        "type": "url"
+    }
+]

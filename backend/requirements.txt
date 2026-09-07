@@ -1,0 +1,8 @@
+﻿fastapi==0.136.1
+uvicorn
+pydantic
+scikit-learn==1.8.0
+numpy
+scipy
+langdetect==1.0.9
+deep-translator==1.11.4

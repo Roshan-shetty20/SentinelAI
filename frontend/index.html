@@ -1,0 +1,1949 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="SentinelAI - AI powered scam and phishing threat detection"
+    >
+
+    <title>SentinelAI | AI Threat Intelligence</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- BACKGROUND -->
+    <div class="background-grid"></div>
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+
+            <span class="logo-icon">S</span>
+
+            <span>
+                Sentinel<span class="orange">AI</span>
+            </span>
+
+        </a>
+
+
+        <nav>
+
+            <a href="index.html" class="active">
+                Home
+            </a>
+
+            <a href="#analyze">
+                Analyze
+            </a>
+
+            <a href="#dashboard">
+                Dashboard
+            </a>
+
+            <a href="#about">
+                About
+            </a>
+
+        </nav>
+
+
+        <a
+            href="#analyze"
+            class="nav-button"
+        >
+            Analyze Threat
+        </a>
+
+    </header>
+
+
+    <!-- MAIN -->
+    <main>
+
+
+        <!-- HERO -->
+        <section class="hero">
+
+
+            <!-- LEFT -->
+            <div class="hero-content">
+
+                <div class="status">
+                    <span class="status-dot"></span>
+                    AI THREAT INTELLIGENCE ONLINE
+                </div>
+
+
+                <h1>
+
+                    Detect threats
+
+                    <span class="gradient-text">
+                        before they hurt.
+                    </span>
+
+                </h1>
+
+
+                <p>
+
+                    SentinelAI analyzes suspicious URLs,
+                    messages, emails and screenshots using
+                    artificial intelligence and machine learning
+                    to identify scams and phishing threats.
+
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#analyze"
+                        class="primary-button"
+                    >
+                        Analyze Now
+                        <span>→</span>
+                    </a>
+
+
+                    <a
+                        href="#how-it-works"
+                        class="secondary-button"
+                    >
+                        How It Works
+                    </a>
+
+                </div>
+
+
+                <!-- TRUST STATS -->
+                <div class="trust">
+
+                    <div>
+
+                        <strong>
+                            24/7
+                        </strong>
+
+                        <span>
+                            Threat Monitoring
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>
+                            AI
+                        </strong>
+
+                        <span>
+                            Powered Analysis
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>
+                            0-100
+                        </strong>
+
+                        <span>
+                            Risk Scoring
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT -->
+            <div class="hero-visuals">
+
+
+                <!-- RADAR -->
+                <div class="scanner-container">
+
+                    <div class="scanner-card">
+
+                        <div class="scanner-header">
+
+                            <span>
+                                LIVE THREAT SCANNER
+                            </span>
+
+                            <span class="online">
+                                ● ONLINE
+                            </span>
+
+                        </div>
+
+
+                        <div class="scanner">
+
+                            <div class="scanner-circle">
+
+                                <div class="scanner-ring ring-1"></div>
+                                <div class="scanner-ring ring-2"></div>
+                                <div class="scanner-ring ring-3"></div>
+
+                                <div class="radar-horizontal"></div>
+                                <div class="radar-vertical"></div>
+
+                                <div class="scanner-line"></div>
+
+                                <div class="scanner-core">
+                                    <span>AI</span>
+                                </div>
+
+                                <div class="radar-dot dot-1"></div>
+                                <div class="radar-dot dot-2"></div>
+                                <div class="radar-dot dot-3"></div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="scanner-status">
+
+                            <span class="pulse"></span>
+
+                            <span id="scannerStatusText">
+                                Scanning global threat signals...
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ROBOT -->
+                <div class="robot-container">
+
+                    <div class="robot-card">
+
+
+                        <div class="robot-header">
+
+                            <span>
+                                AI THREAT ASSISTANT
+                            </span>
+
+                            <span class="robot-status">
+                                ● ACTIVE
+                            </span>
+
+                        </div>
+
+
+                        <div class="robot-stage">
+
+                            <div
+                                class="robot"
+                                id="robot"
+                            >
+
+                                <!-- ANTENNA -->
+                                <div class="antenna">
+                                    <div class="antenna-light"></div>
+                                </div>
+
+
+                                <!-- HEAD -->
+                                <div class="robot-head">
+
+                                    <div class="ear left-ear"></div>
+                                    <div class="ear right-ear"></div>
+
+                                    <div class="robot-face">
+
+                                        <div class="eyes">
+
+                                            <div class="eye left-eye">
+                                                <span></span>
+                                            </div>
+
+                                            <div class="eye right-eye">
+                                                <span></span>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="robot-mouth">
+                                            <span></span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                                <!-- NECK -->
+                                <div class="robot-neck"></div>
+
+
+                                <!-- BODY -->
+                                <div class="robot-body">
+
+                                    <div class="robot-chest">
+
+                                        <div class="chest-core">
+                                            AI
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="robot-arm left-arm">
+                                        <div class="robot-hand"></div>
+                                    </div>
+
+
+                                    <div class="robot-arm right-arm">
+                                        <div class="robot-hand"></div>
+                                    </div>
+
+
+                                    <div class="body-light"></div>
+
+                                </div>
+
+
+                                <div class="robot-shadow"></div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- ROBOT MESSAGE -->
+                        <div
+                            class="robot-message"
+                            id="robotMessage"
+                        >
+
+                            <span class="robot-message-dot"></span>
+
+                            <span id="robotMessageText">
+                                No threats detected.
+                                System secure.
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- =========================================================
+     SENTINELAI — ROBOT FAMILY
+========================================================= -->
+
+<section class="robot-family" id="agents">
+
+    <div class="family-heading">
+        <span class="section-label">SENTINELAI AGENTS</span>
+
+        <h2>
+            Meet the
+            <span class="family-gradient">Robot Family</span>
+        </h2>
+
+        <p>
+            A coordinated AI defense system where every robot
+            specializes in a different layer of cybersecurity.
+        </p>
+    </div>
+
+
+    <div class="robot-family-grid">
+
+
+        <!-- =================================================
+             ROBOT 01 — SENTINEL
+        ================================================== -->
+
+        <div class="family-card sentinel-agent">
+
+            <div class="family-card-top">
+                <span class="agent-id">AGENT_01</span>
+
+                <span class="agent-status">
+                    <span></span>
+                    ONLINE
+                </span>
+            </div>
+
+
+            <div class="family-robot-stage">
+
+                <div class="family-robot">
+
+                    <div class="family-antenna"></div>
+
+                    <div class="family-antenna-light"></div>
+
+
+                    <!-- HEAD -->
+
+                    <div class="family-head">
+
+                        <div class="family-ear family-left-ear"></div>
+                        <div class="family-ear family-right-ear"></div>
+
+
+                        <div class="family-face">
+
+                            <div class="family-eyes">
+
+                                <div class="family-eye family-left-eye"></div>
+                                <div class="family-eye family-right-eye"></div>
+
+                            </div>
+
+                            <div class="family-mouth"></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- NECK -->
+
+                    <div class="family-neck"></div>
+
+
+                    <!-- BODY -->
+
+                    <div class="family-body">
+
+                        <div class="family-chest">
+
+                            <div class="family-chest-core">
+                                S
+                            </div>
+
+                        </div>
+
+                        <div class="family-body-light"></div>
+
+                    </div>
+
+
+                    <!-- ARMS -->
+
+                    <div class="family-arm family-left-arm">
+                        <div class="family-hand"></div>
+                    </div>
+
+                    <div class="family-arm family-right-arm">
+                        <div class="family-hand"></div>
+                    </div>
+
+
+                    <div class="family-shadow"></div>
+
+                </div>
+
+            </div>
+
+
+            <div class="agent-info">
+
+                <h3>Sentinel</h3>
+
+                <span class="agent-role">
+                    PRIMARY DEFENSE
+                </span>
+
+                <p>
+                    The core security intelligence agent responsible
+                    for identifying malicious URLs and phishing threats.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             ROBOT 02 — SCOUT
+        ================================================== -->
+
+        <div class="family-card scout-agent">
+
+            <div class="family-card-top">
+                <span class="agent-id">AGENT_02</span>
+
+                <span class="agent-status">
+                    <span></span>
+                    ONLINE
+                </span>
+            </div>
+
+
+            <div class="family-robot-stage">
+
+                <div class="family-robot">
+
+                    <div class="family-antenna"></div>
+
+                    <div class="family-antenna-light"></div>
+
+
+                    <div class="family-head">
+
+                        <div class="family-ear family-left-ear"></div>
+                        <div class="family-ear family-right-ear"></div>
+
+
+                        <div class="family-face">
+
+                            <div class="family-eyes">
+
+                                <div class="family-eye family-left-eye"></div>
+                                <div class="family-eye family-right-eye"></div>
+
+                            </div>
+
+                            <div class="family-mouth"></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="family-neck"></div>
+
+
+                    <div class="family-body">
+
+                        <div class="family-chest">
+
+                            <div class="family-chest-core">
+                                R
+                            </div>
+
+                        </div>
+
+                        <div class="family-body-light"></div>
+
+                    </div>
+
+
+                    <div class="family-arm family-left-arm">
+                        <div class="family-hand"></div>
+                    </div>
+
+                    <div class="family-arm family-right-arm">
+                        <div class="family-hand"></div>
+                    </div>
+
+
+                    <div class="family-shadow"></div>
+
+                </div>
+
+            </div>
+
+
+            <div class="agent-info">
+
+                <h3>Scout</h3>
+
+                <span class="agent-role">
+                    URL RECON
+                </span>
+
+                <p>
+                    Scans URLs, domains and structural patterns
+                    to discover suspicious signals before analysis.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             ROBOT 03 — NEXUS
+        ================================================== -->
+
+        <div class="family-card nexus-agent">
+
+            <div class="family-card-top">
+                <span class="agent-id">AGENT_03</span>
+
+                <span class="agent-status">
+                    <span></span>
+                    ONLINE
+                </span>
+            </div>
+
+
+            <div class="family-robot-stage">
+
+                <div class="family-robot">
+
+                    <div class="family-antenna"></div>
+
+                    <div class="family-antenna-light"></div>
+
+
+                    <div class="family-head">
+
+                        <div class="family-ear family-left-ear"></div>
+                        <div class="family-ear family-right-ear"></div>
+
+
+                        <div class="family-face">
+
+                            <div class="family-eyes">
+
+                                <div class="family-eye family-left-eye"></div>
+                                <div class="family-eye family-right-eye"></div>
+
+                            </div>
+
+                            <div class="family-mouth"></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="family-neck"></div>
+
+
+                    <div class="family-body">
+
+                        <div class="family-chest">
+
+                            <div class="family-chest-core">
+                                N
+                            </div>
+
+                        </div>
+
+                        <div class="family-body-light"></div>
+
+                    </div>
+
+
+                    <div class="family-arm family-left-arm">
+                        <div class="family-hand"></div>
+                    </div>
+
+                    <div class="family-arm family-right-arm">
+                        <div class="family-hand"></div>
+                    </div>
+
+
+                    <div class="family-shadow"></div>
+
+                </div>
+
+            </div>
+
+
+            <div class="agent-info">
+
+                <h3>Nexus</h3>
+
+                <span class="agent-role">
+                    AI INTELLIGENCE
+                </span>
+
+                <p>
+                    Processes extracted URL features and delivers
+                    intelligent threat predictions using machine learning.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             ROBOT 04 — WARDEN
+        ================================================== -->
+
+        <div class="family-card warden-agent">
+
+            <div class="family-card-top">
+                <span class="agent-id">AGENT_04</span>
+
+                <span class="agent-status">
+                    <span></span>
+                    ONLINE
+                </span>
+            </div>
+
+
+            <div class="family-robot-stage">
+
+                <div class="family-robot">
+
+                    <div class="family-antenna"></div>
+
+                    <div class="family-antenna-light"></div>
+
+
+                    <div class="family-head">
+
+                        <div class="family-ear family-left-ear"></div>
+                        <div class="family-ear family-right-ear"></div>
+
+
+                        <div class="family-face">
+
+                            <div class="family-eyes">
+
+                                <div class="family-eye family-left-eye"></div>
+                                <div class="family-eye family-right-eye"></div>
+
+                            </div>
+
+                            <div class="family-mouth"></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="family-neck"></div>
+
+
+                    <div class="family-body">
+
+                        <div class="family-chest">
+
+                            <div class="family-chest-core">
+                                W
+                            </div>
+
+                        </div>
+
+                        <div class="family-body-light"></div>
+
+                    </div>
+
+
+                    <div class="family-arm family-left-arm">
+                        <div class="family-hand"></div>
+                    </div>
+
+                    <div class="family-arm family-right-arm">
+                        <div class="family-hand"></div>
+                    </div>
+
+
+                    <div class="family-shadow"></div>
+
+                </div>
+
+            </div>
+
+
+            <div class="agent-info">
+
+                <h3>Warden</h3>
+
+                <span class="agent-role">
+                    THREAT RESPONSE
+                </span>
+
+                <p>
+                    Evaluates risk levels and coordinates the final
+                    security response when a malicious threat is detected.
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+        <!-- HOW IT WORKS -->
+        <section
+            class="features"
+            id="how-it-works"
+        >
+
+            <div class="section-heading">
+
+                <span>
+                    INTELLIGENCE LAYER
+                </span>
+
+                <h2>
+
+                    One platform.
+
+                    <span class="orange">
+                        Multiple threat signals.
+                    </span>
+
+                </h2>
+
+                <p>
+                    SentinelAI combines multiple AI techniques
+                    to identify suspicious digital activity.
+                </p>
+
+            </div>
+
+
+            <div class="feature-grid">
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        🔗
+                    </div>
+
+                    <h3>
+                        URL Detection
+                    </h3>
+
+                    <p>
+                        Analyze suspicious URLs using
+                        machine learning and URL-based
+                        security features.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        💬
+                    </div>
+
+                    <h3>
+                        Message Analysis
+                    </h3>
+
+                    <p>
+                        Detect scam patterns, urgency,
+                        manipulation and suspicious
+                        language using NLP.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        📷
+                    </div>
+
+                    <h3>
+                        Screenshot Analysis
+                    </h3>
+
+                    <p>
+                        Extract text from suspicious
+                        screenshots using OCR and
+                        analyze the content.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        🧠
+                    </div>
+
+                    <h3>
+                        AI Risk Engine
+                    </h3>
+
+                    <p>
+                        Combine multiple threat signals
+                        into an explainable risk score
+                        between 0 and 100.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ANALYZER -->
+        <section
+            class="analyzer-section"
+            id="analyze"
+        >
+
+            <div class="section-heading">
+
+                <span>
+                    SENTINEL ANALYZER
+                </span>
+
+                <h2>
+
+                    Don't trust it.
+
+                    <span class="orange">
+                        Analyze it.
+                    </span>
+
+                </h2>
+
+                <p>
+                    Enter a suspicious URL and let SentinelAI
+                    analyze it using the trained machine learning model.
+                </p>
+
+            </div>
+
+
+            <div class="analyzer-card">
+
+                <div class="input-label">
+                    ENTER URL
+                </div>
+
+
+                <div class="url-input-wrapper">
+
+                    <span class="input-prefix">
+                        URL://
+                    </span>
+
+                    <input
+                        type="url"
+                        id="urlInput"
+                        placeholder="https://example.com"
+                        autocomplete="off"
+                    >
+
+                    <button
+                        class="primary-button analyze-button"
+                        id="analyzeButton"
+                    >
+                        Analyze URL
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+
+                <div
+                    class="analysis-result"
+                    id="analysisResult"
+                >
+
+                    <div class="result-header">
+
+                        <div
+                            class="result-title"
+                            id="resultTitle"
+                        >
+                            ANALYSIS RESULT
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        class="result-url"
+                        id="resultUrl"
+                    ></div>
+
+
+                    <div class="result-details">
+
+                        <div
+                            class="result-risk"
+                            id="resultRisk"
+                        ></div>
+
+                        <div
+                            class="result-confidence"
+                            id="resultConfidence"
+                        ></div>
+
+                    </div>
+
+                    </div>
+
+                    <div class="url-reasons" style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #333; text-align: left;">
+                        <div class="message-reasons-title" style="font-size: 0.8rem; font-weight: bold; color: #ff6600; letter-spacing: 1px; margin-bottom: 10px;">
+                            DETECTION INDICATORS
+                        </div>
+                        <div id="urlReasons" style="color: #ccc; font-size: 0.95rem; line-height: 1.6;">
+                        </div>
+                    </div>
+
+                    <div class="url-components" style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #333; text-align: left;">
+                        <div class="message-reasons-title" style="font-size: 0.8rem; font-weight: bold; color: #ff6600; letter-spacing: 1px; margin-bottom: 10px;">
+                            AI RISK COMPONENTS
+                        </div>
+                        <div style="display: grid; grid-template-columns: 1fr; gap: 10px;">
+                            <div style="display: flex; justify-content: space-between; padding: 10px; background: rgba(0,0,0,0.2); border-radius: 4px;">
+                                <span style="color: #999; font-size: 0.9rem;">URL Risk</span>
+                                <strong id="urlRiskComp" style="color: #fff;">0%</strong>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="url-explanation" style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #333; text-align: left;">
+                        <div class="message-reasons-title" style="font-size: 0.8rem; font-weight: bold; color: #ff6600; letter-spacing: 1px; margin-bottom: 10px;">
+                            EXPLANATION
+                        </div>
+                        <div id="urlExplanation" style="color: #ccc; font-size: 0.95rem; line-height: 1.6;">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- =========================================================
+     MESSAGE ANALYZER
+========================================================= -->
+
+<section class="message-analyzer-section" id="message-analyzer">
+
+    <div class="section-heading">
+        <span>MESSAGE INTELLIGENCE</span>
+
+        <h2>
+            Detect
+            <span class="orange">Scam Messages</span>
+        </h2>
+
+        <p>
+            Analyze suspicious SMS, emails, chat messages and other
+            text content using SentinelAI.
+        </p>
+    </div>
+
+    <div class="message-analyzer-card">
+
+        <div class="input-label">
+            MESSAGE TO ANALYZE
+        </div>
+
+        <textarea
+            id="messageInput"
+            class="message-input"
+            placeholder="Paste a suspicious message here..."
+            maxlength="5000"
+        ></textarea>
+
+        <div class="message-input-footer">
+
+            <span id="messageCharCount">
+                0 / 5000
+            </span>
+
+            <button
+                class="primary-button message-analyze-button"
+                id="analyzeMessageBtn"
+            >
+                <span>⚡</span>
+                Analyze Message
+            </button>
+
+        </div>
+
+
+        <!-- =================================================
+             MESSAGE ANALYSIS RESULT
+        ================================================== -->
+
+        <div
+            class="message-analysis-result"
+            id="messageAnalysisResult"
+        >
+
+            <div class="message-result-header">
+
+                <div>
+                    <div class="message-result-label">
+                        SENTINELAI VERDICT
+                    </div>
+
+                    <div
+                        class="message-result-title"
+                        id="messageResultTitle"
+                    >
+                        SAFE
+                    </div>
+                </div>
+
+                <div
+                    class="message-risk-badge"
+                    id="messageRiskBadge"
+                >
+                    LOW RISK
+                </div>
+
+            </div>
+
+
+            <div class="message-confidence">
+
+                <div class="confidence-header">
+                    <span>CONFIDENCE</span>
+
+                    <strong id="messageConfidence">
+                        0%
+                    </strong>
+                </div>
+
+                <div class="confidence-bar">
+                    <div
+                        class="confidence-fill"
+                        id="messageConfidenceFill"
+                    ></div>
+                </div>
+
+            </div>
+
+
+            <div class="message-reasons">
+
+                <div class="message-reasons-title">
+                    DETECTION INDICATORS
+                </div>
+
+                <div
+                    id="messageReasons"
+                    class="message-reasons-list"
+                >
+                    <div class="reason-item">
+                        <span>•</span>
+                        No suspicious indicators detected.
+                    </div>
+                            </div>
+
+            <div class="message-components" style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #333;">
+                <div class="message-reasons-title">
+                    AI RISK COMPONENTS
+                </div>
+                <div class="email-component-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 10px;">
+                    <div class="email-component" style="display: flex; justify-content: space-between; padding: 10px; background: #1a1a1a; border-radius: 4px;">
+                        <span style="color: #999; font-size: 0.9rem;">Message Risk</span>
+                        <strong id="messageRiskComp" style="color: #fff;">0%</strong>
+                    </div>
+                    <div class="email-component" style="display: flex; justify-content: space-between; padding: 10px; background: #1a1a1a; border-radius: 4px;">
+                        <span style="color: #999; font-size: 0.9rem;">Semantic Risk</span>
+                        <strong id="messageSemanticRiskComp" style="color: #fff;">0%</strong>
+                    </div>
+                    <div class="email-component" style="display: flex; justify-content: space-between; padding: 10px; background: #1a1a1a; border-radius: 4px;">
+                        <span style="color: #999; font-size: 0.9rem;">Pattern Risk</span>
+                        <strong id="messagePatternRiskComp" style="color: #fff;">0%</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message-explanation" style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #333;">
+                <div class="message-reasons-title">
+                    EXPLANATION
+                </div>
+                <div id="messageExplanation" style="margin-top: 10px; color: #ccc; line-height: 1.6; font-size: 0.95rem;">
+                </div>
+            </div>
+
+
+            <div class="analyzed-message">
+
+                <div class="message-reasons-title">
+                    ANALYZED MESSAGE
+                </div>
+
+                <div
+                    id="analyzedMessageText"
+                    class="analyzed-message-text"
+                ></div>
+                <div class="message-reasons-title" id="translationTitle" style="display:none; margin-top: 15px;">
+                    TRANSLATION / MULTILINGUAL
+                </div>
+                <div id="translationInfo" class="analyzed-message-text" style="display:none; font-size: 0.9em;"></div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     EMAIL ANALYZER
+========================================================= -->
+
+<section class="email-analyzer-section" id="email-analyzer">
+
+    <div class="section-heading">
+        <span>EMAIL INTELLIGENCE</span>
+
+        <h2>
+            Analyze
+            <span class="orange">Suspicious Emails</span>
+        </h2>
+
+        <p>
+            Analyze sender information, subject, email content and embedded
+            links using SentinelAI's AI-powered threat detection system.
+        </p>
+    </div>
+
+    <div class="email-analyzer-card">
+
+        <!-- SENDER -->
+        <div class="email-field">
+            <div class="input-label">
+                SENDER EMAIL
+            </div>
+
+            <input
+                type="email"
+                id="emailSender"
+                class="email-input"
+                placeholder="security@example.com"
+                autocomplete="off"
+            >
+        </div>
+
+        <!-- SUBJECT -->
+        <div class="email-field">
+            <div class="input-label">
+                EMAIL SUBJECT
+            </div>
+
+            <input
+                type="text"
+                id="emailSubject"
+                class="email-input"
+                placeholder="Urgent: Verify your account"
+                maxlength="300"
+                autocomplete="off"
+            >
+        </div>
+
+        <!-- BODY -->
+        <div class="email-field">
+            <div class="input-label">
+                EMAIL CONTENT
+            </div>
+
+            <textarea
+                id="emailBody"
+                class="email-input email-body-input"
+                placeholder="Paste the suspicious email content here..."
+                maxlength="10000"
+            ></textarea>
+        </div>
+
+        <!-- ACTION -->
+        <div class="email-input-footer">
+
+            <span id="emailCharCount">
+                0 / 10000
+            </span>
+
+            <button
+                class="primary-button email-analyze-button"
+                id="analyzeEmailBtn"
+            >
+                <span>⚡</span>
+                Analyze Email
+            </button>
+
+        </div>
+
+
+        <!-- =================================================
+             EMAIL ANALYSIS RESULT
+        ================================================== -->
+
+        <div
+            class="email-analysis-result"
+            id="emailAnalysisResult"
+        >
+
+            <div class="email-result-header">
+
+                <div>
+                    <div class="message-result-label">
+                        SENTINELAI EMAIL VERDICT
+                    </div>
+
+                    <div
+                        class="email-result-title"
+                        id="emailResultTitle"
+                    >
+                        SAFE
+                    </div>
+                </div>
+
+                <div
+                    class="message-risk-badge"
+                    id="emailRiskBadge"
+                >
+                    LOW RISK
+                </div>
+
+            </div>
+
+
+            <!-- CONFIDENCE -->
+
+            <div class="message-confidence">
+
+                <div class="confidence-header">
+                    <span>CONFIDENCE</span>
+
+                    <strong id="emailConfidence">
+                        0%
+                    </strong>
+                </div>
+
+                <div class="confidence-bar">
+
+                    <div
+                        class="confidence-fill"
+                        id="emailConfidenceFill"
+                    ></div>
+
+                </div>
+
+            </div>
+
+
+            <!-- SENDER INFORMATION -->
+
+            <div class="email-result-info">
+
+                <div class="message-reasons-title">
+                    SENDER ANALYSIS
+                </div>
+
+                <div
+                    id="emailSenderResult"
+                    class="email-result-value"
+                ></div>
+
+                <div
+                    id="emailDomainResult"
+                    class="email-result-value"
+                ></div>
+
+            </div>
+
+
+            <!-- DETECTED URLS -->
+
+            <div class="email-result-info">
+
+                <div class="message-reasons-title">
+                    DETECTED LINKS
+                </div>
+
+                <div
+                    id="emailUrls"
+                    class="email-urls-list"
+                >
+                    <div class="reason-item">
+                        <span>•</span>
+                        No URLs detected.
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- DETECTION INDICATORS -->
+
+            <div class="message-reasons">
+
+                <div class="message-reasons-title">
+                    DETECTION INDICATORS
+                </div>
+
+                <div
+                    id="emailReasons"
+                    class="message-reasons-list"
+                >
+                    <div class="reason-item">
+                        <span>•</span>
+                        No suspicious indicators detected.
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- MODEL COMPONENTS -->
+
+            <div class="email-components">
+
+                <div class="message-reasons-title">
+                    AI RISK COMPONENTS
+                </div>
+
+                <div class="email-component-grid">
+
+                    <div class="email-component">
+                        <span>Message Risk</span>
+                        <strong id="emailMessageRisk">0%</strong>
+                    </div>
+
+                    <div class="email-component">
+                        <span>Semantic Risk</span>
+                        <strong id="emailSemanticRisk">0%</strong>
+                    </div>
+
+                    <div class="email-component">
+                        <span>Pattern Risk</span>
+                        <strong id="emailPatternRisk">0%</strong>
+                    </div>
+
+                    <div class="email-component">
+                        <span>URL Risk</span>
+                        <strong id="emailUrlRisk">0%</strong>
+                    </div>
+
+                    <div class="email-component">
+                        <span>Sender Risk</span>
+                        <strong id="emailSenderRisk">0%</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ANALYZED EMAIL -->
+
+            <div class="analyzed-message">
+
+                <div class="message-reasons-title">
+                    ANALYZED EMAIL
+                </div>
+
+                <div
+                    id="analyzedEmailText"
+                    class="analyzed-message-text"
+                ></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     SCREENSHOT ANALYZER
+========================================================= -->
+
+<section class="screenshot-analyzer-section" id="screenshot-analyzer">
+
+    <div class="section-heading">
+
+        <span>SCREENSHOT INTELLIGENCE</span>
+
+        <h2>
+            Analyze
+            <span class="orange">Suspicious Screenshots</span>
+        </h2>
+
+        <p>
+            Upload a screenshot of a suspicious SMS, email, website,
+            payment request or message and let SentinelAI analyze it
+            using OCR and AI-powered threat detection.
+        </p>
+
+    </div>
+
+
+    <div class="screenshot-analyzer-card">
+
+        <!-- UPLOAD AREA -->
+
+        <div class="input-label">
+            UPLOAD SCREENSHOT
+        </div>
+
+        <div
+            class="screenshot-upload-area"
+            id="screenshotUploadArea"
+        >
+
+            <div class="screenshot-upload-icon">
+                📷
+            </div>
+
+            <h3>
+                Drop your screenshot here
+            </h3>
+
+            <p>
+                or choose an image from your device
+            </p>
+
+            <input
+                type="file"
+                id="screenshotInput"
+                accept="image/png,image/jpeg,image/jpg,image/webp"
+                hidden
+            >
+
+            <button
+                type="button"
+                class="primary-button"
+                id="chooseScreenshotBtn"
+            >
+                Choose Screenshot
+            </button>
+
+            <div
+                class="screenshot-file-name"
+                id="screenshotFileName"
+            >
+                No file selected
+            </div>
+
+        </div>
+
+
+        <!-- IMAGE PREVIEW -->
+
+        <div
+            class="screenshot-preview-container"
+            id="screenshotPreviewContainer"
+        >
+
+            <div class="input-label">
+                SCREENSHOT PREVIEW
+            </div>
+
+            <img
+                id="screenshotPreview"
+                class="screenshot-preview"
+                alt="Screenshot preview"
+            >
+
+        </div>
+
+
+        <!-- ANALYZE BUTTON -->
+
+        <div class="screenshot-input-footer">
+
+            <span id="screenshotStatus">
+                Ready for analysis
+            </span>
+
+            <button
+                type="button"
+                class="primary-button screenshot-analyze-button"
+                id="analyzeScreenshotBtn"
+            >
+                <span>⚡</span>
+                Analyze Screenshot
+            </button>
+
+        </div>
+
+
+        <!-- =================================================
+             SCREENSHOT ANALYSIS RESULT
+        ================================================== -->
+
+        <div
+            class="screenshot-analysis-result"
+            id="screenshotAnalysisResult"
+        >
+
+            <!-- VERDICT -->
+
+            <div class="screenshot-result-header">
+
+                <div>
+
+                    <div class="message-result-label">
+                        SENTINELAI SCREENSHOT VERDICT
+                    </div>
+
+                    <div
+                        class="screenshot-result-title"
+                        id="screenshotResultTitle"
+                    >
+                        SAFE
+                    </div>
+
+                </div>
+
+                <div
+                    class="message-risk-badge"
+                    id="screenshotRiskBadge"
+                >
+                    LOW RISK
+                </div>
+
+            </div>
+
+
+            <!-- CONFIDENCE -->
+
+            <div class="message-confidence">
+
+                <div class="confidence-header">
+
+                    <span>
+                        CONFIDENCE
+                    </span>
+
+                    <strong id="screenshotConfidence">
+                        0%
+                    </strong>
+
+                </div>
+
+                <div class="confidence-bar">
+
+                    <div
+                        class="confidence-fill"
+                        id="screenshotConfidenceFill"
+                    ></div>
+
+                </div>
+
+            </div>
+
+
+            <!-- OCR CONFIDENCE -->
+
+            <div class="email-result-info">
+
+                <div class="message-reasons-title">
+                    OCR ANALYSIS
+                </div>
+
+                <div
+                    id="screenshotOcrConfidence"
+                    class="email-result-value"
+                >
+                    OCR Confidence: 0%
+                </div>
+
+            </div>
+
+
+            <!-- DETECTED URLS -->
+
+            <div class="email-result-info">
+
+                <div class="message-reasons-title">
+                    DETECTED LINKS
+                </div>
+
+                <div
+                    id="screenshotUrls"
+                    class="email-urls-list"
+                >
+                    <div class="reason-item">
+                        <span>•</span>
+                        No URLs detected.
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- DETECTION INDICATORS -->
+
+            <div class="message-reasons">
+
+                <div class="message-reasons-title">
+                    DETECTION INDICATORS
+                </div>
+
+                <div
+                    id="screenshotReasons"
+                    class="message-reasons-list"
+                >
+
+                    <div class="reason-item">
+
+                        <span>•</span>
+
+                        No suspicious indicators detected.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- AI RISK COMPONENTS -->
+
+            <div class="email-components">
+
+                <div class="message-reasons-title">
+                    AI RISK COMPONENTS
+                </div>
+
+                <div class="email-component-grid">
+
+                    <div class="email-component">
+
+                        <span>
+                            Message Risk
+                        </span>
+
+                        <strong id="screenshotMessageRisk">
+                            0%
+                        </strong>
+
+                    </div>
+
+
+                    <div class="email-component">
+
+                        <span>
+                            Semantic Risk
+                        </span>
+
+                        <strong id="screenshotSemanticRisk">
+                            0%
+                        </strong>
+
+                    </div>
+
+
+                    <div class="email-component">
+
+                        <span>
+                            Pattern Risk
+                        </span>
+
+                        <strong id="screenshotPatternRisk">
+                            0%
+                        </strong>
+
+                    </div>
+
+
+                    <div class="email-component">
+
+                        <span>
+                            URL Risk
+                        </span>
+
+                        <strong id="screenshotUrlRisk">
+                            0%
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- EXTRACTED OCR TEXT -->
+
+            <div class="analyzed-message">
+
+                <div class="message-reasons-title">
+                    EXTRACTED TEXT
+                </div>
+
+                <div
+                    id="screenshotExtractedText"
+                    class="analyzed-message-text"
+                ></div>
+
+            </div>
+
+
+            <!-- EXPLAINABLE AI -->
+
+            <div class="message-reasons">
+
+                <div class="message-reasons-title">
+                    EXPLAINABLE AI
+                </div>
+
+                <div
+                    id="screenshotExplanation"
+                    class="message-reasons-list"
+                ></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- DASHBOARD PLACEHOLDER -->
+        <section
+            class="info-section"
+            id="dashboard"
+        >
+
+            <div class="section-heading">
+
+                <span>
+                    THREAT DASHBOARD
+                </span>
+
+                <h2>
+                    Intelligence at a glance.
+                </h2>
+
+                <p>
+                    Monitor AI-powered threat detection,
+                    risk scores and security intelligence
+                    from one centralized interface.
+                </p>
+
+            </div>
+
+        </section>
+        
+
+
+        <!-- ABOUT -->
+        <section
+            class="info-section"
+            id="about"
+        >
+
+            <div class="section-heading">
+
+                <span>
+                    ABOUT SENTINELAI
+                </span>
+
+                <h2>
+                    Built to detect digital threats.
+                </h2>
+
+                <p>
+                    SentinelAI uses machine learning to analyze
+                    suspicious URLs and identify potential phishing
+                    attacks before users interact with them.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-brand">
+
+            <div class="logo">
+
+                <span class="logo-icon">
+                    S
+                </span>
+
+                <span>
+                    Sentinel<span class="orange">AI</span>
+                </span>
+
+            </div>
+
+            <p>
+                AI-powered scam and phishing intelligence.
+            </p>
+
+        </div>
+
+
+        <div class="footer-right">
+
+            <span>
+                AI Threat Intelligence
+            </span>
+
+            <span>
+                © 2026 SentinelAI
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
